@@ -20,8 +20,6 @@ arquivo_original: "não disponível; usuário informou que não possui mais o ar
 
 ## Resumo
 
-O documento original do questionário feito na aula 4 não está mais disponível. Por isso, as perguntas exatas e a ordem do roteiro não podem ser reproduzidas com segurança.
-
 A documentação de pesquisa do Altura registra como objetivo compreender o problema antes de pensar em soluções. O público previsto é formado por fundadores de startups e investidores, com previsão de ouvir de 8 a 10 pessoas. A pergunta central registrada no plano de pesquisa é: **“O que te faria confiar numa plataforma de matchmaking entre startups e investidores?”** Essa pergunta está documentada no plano de pesquisa, mas não é possível confirmar que fazia parte do questionário original da aula 4.
 
 ## Conteúdo
