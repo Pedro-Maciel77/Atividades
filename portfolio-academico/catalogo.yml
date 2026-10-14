@@ -1,0 +1,502 @@
+# Catálogo de documentos (gerado por scripts/atualizar.py). Não edite à mão.
+# Para mudar algo, edite o front matter do documento e rode o script de novo.
+- id: doc-arquitetura-da-informacao
+  titulo: Arquitetura da Informação neste repositório
+  descricao: Explica como classificação, taxonomia, metadados, navegação, encontrabilidade e relações
+    entre conteúdos foram aplicados.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags:
+  - arquitetura-da-informacao
+  - git
+  - github
+  relacionados:
+  - doc-classificacao
+  - doc-taxonomia
+  - doc-metadados
+  - doc-encontrabilidade
+  - doc-relacoes
+  caminho: docs/arquitetura-da-informacao.md
+- id: doc-classificacao
+  titulo: Classificação e estrutura de pastas
+  descricao: Mostra a árvore de pastas do repositório e justifica o critério de classificação escolhido.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags:
+  - arquitetura-da-informacao
+  relacionados:
+  - doc-arquitetura-da-informacao
+  - doc-taxonomia
+  caminho: docs/classificacao.md
+- id: doc-encontrabilidade
+  titulo: 'Encontrabilidade: nomes, palavras-chave e busca'
+  descricao: Padrão de nomes de arquivos e pastas, descrição e topics do GitHub, palavras-chave, glossário
+    e índice de busca.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags:
+  - arquitetura-da-informacao
+  - github
+  relacionados:
+  - doc-arquitetura-da-informacao
+  - doc-metadados
+  - doc-passo-a-passo-git
+  caminho: docs/encontrabilidade.md
+- id: doc-metadados
+  titulo: 'Metadados: padrão de cabeçalho (front matter)'
+  descricao: Define os campos do cabeçalho YAML de cada documento e mostra um exemplo preenchido com o
+    Mapa de Empatia do Altura.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags:
+  - arquitetura-da-informacao
+  relacionados:
+  - doc-arquitetura-da-informacao
+  - doc-taxonomia
+  - doc-encontrabilidade
+  caminho: docs/metadados.md
+- id: doc-passo-a-passo-git
+  titulo: 'Passo a passo: criar o repositório no GitHub com git'
+  descricao: Comandos para criar o repositório, subir os arquivos e configurar descrição e topics no GitHub.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags:
+  - git
+  - github
+  relacionados:
+  - doc-encontrabilidade
+  caminho: docs/passo-a-passo-git.md
+- id: doc-pendencias
+  titulo: 'Pendências: o que falta preencher'
+  descricao: Lista de tudo que ainda precisa ser preenchido ou confirmado antes de entregar o portfólio.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags: []
+  relacionados: []
+  caminho: docs/pendencias.md
+- id: doc-relacoes
+  titulo: Relações entre conteúdos (mapa em Mermaid)
+  descricao: Mapa visual de como os documentos do PI e as UCs se ligam, com a cadeia Persona, Mapa de
+    Empatia, Plano de Pesquisa e Lean Canvas.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags:
+  - arquitetura-da-informacao
+  relacionados:
+  - doc-arquitetura-da-informacao
+  caminho: docs/relacoes.md
+- id: doc-taxonomia
+  titulo: 'Taxonomia: vocabulário controlado'
+  descricao: Lista de todos os termos permitidos em UC, fase do PI, tipo, escopo, status e tags, com definição.
+  tipo: documentacao
+  fase_pi: nenhuma
+  ucs: []
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: '2026-10-13'
+  status: em-andamento
+  tags:
+  - arquitetura-da-informacao
+  relacionados:
+  - doc-arquitetura-da-informacao
+  - doc-classificacao
+  - doc-metadados
+  caminho: docs/taxonomia.md
+- id: pi-01-pesquisa-inicial
+  titulo: Pesquisa Inicial do Altura
+  descricao: Levantamento inicial sobre a dificuldade de startups e investidores se encontrarem.
+  tipo: pesquisa
+  fase_pi: pesquisa-empatia
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada no documento original
+  status: documentado
+  tags:
+  - pesquisa-com-usuarios
+  - startups
+  - investidores
+  - matchmaking
+  - problema
+  relacionados:
+  - pi-02-mapa-de-empatia
+  - pi-03-plano-de-pesquisa
+  - pi-08-business-model-canvas
+  - pi-09-lean-canvas
+  - pi-05-resposta-da-equipe
+  arquivo_original: original-pesquisa-com-usuarios.docx
+  caminho: pi-altura/01-pesquisa-e-empatia/01-pesquisa-inicial.md
+- id: pi-02-mapa-de-empatia
+  titulo: 'Mapa de Empatia (público: startups)'
+  descricao: Mapa de empatia do público startups, registrado no documento de pesquisa do Altura.
+  tipo: mapa-de-empatia
+  fase_pi: pesquisa-empatia
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: '2026-09-16'
+  status: documentado
+  tags:
+  - empatia
+  - startups
+  - dores
+  - ganhos
+  - pesquisa-com-usuarios
+  relacionados:
+  - pi-01-pesquisa-inicial
+  - pi-03-plano-de-pesquisa
+  - pi-04-persona-marina-duarte
+  - pi-09-lean-canvas
+  arquivo_original: original-pesquisa-com-usuarios.docx
+  caminho: pi-altura/01-pesquisa-e-empatia/02-mapa-de-empatia.md
+- id: pi-03-plano-de-pesquisa
+  titulo: Plano de Pesquisa
+  descricao: Plano para compreender o problema e o contexto de fundadores de startups e investidores.
+  tipo: plano
+  fase_pi: pesquisa-empatia
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada no documento original
+  status: documentado
+  tags:
+  - pesquisa-com-usuarios
+  - entrevista
+  - fundadores
+  - investidores
+  relacionados:
+  - pi-01-pesquisa-inicial
+  - pi-02-mapa-de-empatia
+  - pi-04-persona-marina-duarte
+  - pi-06-questionario-customer-discovery-jtbd
+  - pi-07-formulario-fundadores
+  arquivo_original: original-pesquisa-com-usuarios.docx
+  caminho: pi-altura/01-pesquisa-e-empatia/03-plano-de-pesquisa.md
+- id: pi-04-persona-marina-duarte
+  titulo: 'Persona: Marina Duarte'
+  descricao: Perfil de fundadora de startup apresentado no documento de pesquisa com usuários do Altura.
+  tipo: persona
+  fase_pi: pesquisa-empatia
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada no documento original
+  status: documentado
+  tags:
+  - persona
+  - fundadores
+  - startups
+  - empatia
+  relacionados:
+  - pi-02-mapa-de-empatia
+  - pi-03-plano-de-pesquisa
+  - pi-05-resposta-da-equipe
+  - pi-08-business-model-canvas
+  arquivo_original: original-pesquisa-com-usuarios.docx
+  caminho: pi-altura/01-pesquisa-e-empatia/04-persona-marina-duarte.md
+- id: pi-05-resposta-da-equipe
+  titulo: Resposta da Equipe
+  descricao: Respostas do grupo sobre o funcionamento, objetivos, dificuldades e valores do Altura.
+  tipo: tabela
+  fase_pi: pesquisa-empatia
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada no documento original
+  status: documentado
+  tags:
+  - equipe-altura
+  - proposta-de-valor
+  - matchmaking
+  - startups
+  - investidores
+  relacionados:
+  - pi-01-pesquisa-inicial
+  - pi-04-persona-marina-duarte
+  - pi-08-business-model-canvas
+  - pi-09-lean-canvas
+  arquivo_original: original-pesquisa-com-usuarios.docx
+  caminho: pi-altura/01-pesquisa-e-empatia/05-resposta-da-equipe.md
+- id: pi-06-questionario-customer-discovery-jtbd
+  titulo: Questionário de Customer Discovery e JTBD (Aula 4)
+  descricao: Registro do questionário de Customer Discovery e Jobs to Be Done mencionado na aula 4 de
+    Empreendedorismo; o arquivo original não está mais disponível.
+  tipo: questionario
+  fase_pi: customer-discovery
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada
+  status: documentado
+  tags:
+  - customer-discovery
+  - jtbd
+  - entrevista
+  relacionados:
+  - pi-03-plano-de-pesquisa
+  - pi-07-formulario-fundadores
+  arquivo_original: não disponível; usuário informou que não possui mais o arquivo original
+  caminho: pi-altura/02-customer-discovery/06-questionario-customer-discovery-jtbd.md
+- id: pi-07-formulario-fundadores
+  titulo: Formulário para fundadores (Google Forms)
+  descricao: Registro do formulário no Google Forms para coletar respostas de fundadores de startups.
+  tipo: formulario
+  fase_pi: customer-discovery
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada
+  status: em-andamento
+  tags:
+  - customer-discovery
+  - fundadores
+  - google-forms
+  relacionados:
+  - pi-03-plano-de-pesquisa
+  - pi-06-questionario-customer-discovery-jtbd
+  arquivo_original: 'Google Forms: https://docs.google.com/forms/d/e/1FAIpQLSePUk0ZaG4jIo-f9nu_nuz9V--lkAb3RSyGbFlJOYbsx1v5VQ/viewform?classId=cabccc3d-9a7e-4bdf-9c51-43afedb9a121&assignmentId=ed97ac5f-65a0-42a4-9a4c-c2f743fe5654&submissionId=6a691e6b-3bd4-10fa-9112-870dd44c747b'
+  caminho: pi-altura/02-customer-discovery/07-formulario-fundadores.md
+- id: pi-08-business-model-canvas
+  titulo: Business Model Canvas
+  descricao: Business Model Canvas do Altura com segmentos, proposta de valor, canais, recursos e modelo
+    de receita.
+  tipo: canvas
+  fase_pi: modelagem-negocio
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada no documento original
+  status: documentado
+  tags:
+  - business-model-canvas
+  - modelo-de-negocio
+  - startups
+  - investidores
+  - matchmaking
+  relacionados:
+  - pi-09-lean-canvas
+  - pi-01-pesquisa-inicial
+  - pi-04-persona-marina-duarte
+  - pi-05-resposta-da-equipe
+  arquivo_original: original-relatorio-canvas.docx
+  caminho: pi-altura/03-modelagem-de-negocio/08-business-model-canvas.md
+- id: pi-09-lean-canvas
+  titulo: Lean Canvas
+  descricao: Lean Canvas do Altura, com problema, solução, métricas e vantagem injusta.
+  tipo: canvas
+  fase_pi: modelagem-negocio
+  ucs: []
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada no documento original
+  status: documentado
+  tags:
+  - lean-canvas
+  - modelo-de-negocio
+  - startups
+  - investidores
+  - matchmaking
+  relacionados:
+  - pi-08-business-model-canvas
+  - pi-01-pesquisa-inicial
+  - pi-02-mapa-de-empatia
+  - pi-05-resposta-da-equipe
+  - pi-10-codigo-do-mvp
+  arquivo_original: original-relatorio-canvas.docx
+  caminho: pi-altura/03-modelagem-de-negocio/09-lean-canvas.md
+- id: pi-10-codigo-do-mvp
+  titulo: Código do MVP (pasta app/ do repositório NEXO)
+  descricao: MVP do Altura em React 19, TypeScript e Vite. Interface pronta com dados simulados; back-end
+    Node.js e banco de dados em desenvolvimento.
+  tipo: codigo
+  fase_pi: mvp
+  ucs: []
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada
+  status: em-andamento
+  tags:
+  - react
+  - typescript
+  - vite
+  - nodejs
+  - pwa
+  - banco-de-dados
+  - matchmaking
+  - compatibilidade
+  - lgpd
+  relacionados:
+  - pi-09-lean-canvas
+  arquivo_original: https://github.com/Pedro-Maciel77/nexo
+  caminho: pi-altura/04-mvp/10-codigo-do-mvp.md
+- id: emp-01-tendencia-matchmaking-startups-investidores
+  titulo: 'Tendência: Matchmaking entre startups e investidores'
+  descricao: Atividade que identifica a tendência de uso de plataformas digitais para aproximar startups
+    e investidores, descrevendo mudanças, público, problemas e oportunidades.
+  tipo: atividade
+  fase_pi: nenhuma
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - grupo-de-empreendedorismo
+  data: não informada no documento original
+  status: concluido
+  tags:
+  - startups
+  - investidores
+  - matchmaking
+  - modelo-de-negocio
+  relacionados:
+  - emp-02-analise-trajetoria-estrategia-ifood
+  caminho: ucs/empreendedorismo/01-tendencia-matchmaking-startups-investidores.md
+- id: emp-02-analise-trajetoria-estrategia-ifood
+  titulo: Análise da trajetória e decisões estratégicas do iFood
+  descricao: Relatório sobre a trajetória do iFood, seus desafios, decisões estratégicas e resultados
+    apresentados no material enviado.
+  tipo: atividade
+  fase_pi: nenhuma
+  ucs:
+  - empreendedorismo
+  escopo: grupo
+  autores:
+  - grupo-de-empreendedorismo
+  data: não informada no documento original
+  status: concluido
+  tags:
+  - modelo-de-negocio
+  - estrategia-empresarial
+  - ifood
+  relacionados:
+  - emp-01-tendencia-matchmaking-startups-investidores
+  caminho: ucs/empreendedorismo/02-analise-trajetoria-estrategia-ifood.md
+- id: gi-radar-problemas-altura
+  titulo: Radar de problemas informacionais — Projeto Altura
+  descricao: 'Atividade do PI que identifica três problemas informacionais: estruturação dos perfis, critérios
+    de compatibilidade e definição de indicadores.'
+  tipo: atividade
+  fase_pi: nenhuma
+  ucs:
+  - gestao-da-informacao
+  escopo: grupo
+  autores:
+  - equipe-altura
+  data: não informada no documento original
+  status: em-revisao
+  tags:
+  - informacao
+  - qualidade-dados
+  - perfis
+  - matchmaking
+  - indicadores
+  relacionados:
+  - gi-cenario-longa-espera
+  - gi-mapa-conhecimentos-siob
+  caminho: ucs/gestao-da-informacao/01-radar-problemas-informacionais-altura.md
+- id: gi-cenario-longa-espera
+  titulo: Cenário 8 — Longa espera no atendimento
+  descricao: Exercício que transforma dados sobre capacidade de atendimento em informação, conhecimento,
+    inteligência, decisão e ação.
+  tipo: atividade
+  fase_pi: nenhuma
+  ucs:
+  - gestao-da-informacao
+  escopo: grupo
+  autores:
+  - equipe
+  data: não informada no documento original
+  status: em-revisao
+  tags:
+  - dados
+  - informacao
+  - conhecimento
+  - decisao
+  - indicadores
+  relacionados:
+  - gi-radar-problemas-altura
+  - gi-mapa-conhecimentos-siob
+  caminho: ucs/gestao-da-informacao/02-cenario-8-longa-espera-atendimento.md
+- id: gi-mapa-conhecimentos-siob
+  titulo: Mapa de conhecimentos críticos e lições aprendidas — SIOB
+  descricao: Atividade individual que identifica conhecimentos críticos do SIOB, avalia riscos de perda,
+    aplica o modelo SECI e propõe um fluxo de lições aprendidas.
+  tipo: atividade
+  fase_pi: nenhuma
+  ucs:
+  - gestao-da-informacao
+  escopo: individual
+  autores:
+  - pedro-henrique-maciel
+  data: não informada no documento original
+  status: em-revisao
+  tags:
+  - gestao-do-conhecimento
+  - seci
+  - documentacao
+  - siob
+  - licoes-aprendidas
+  relacionados:
+  - gi-radar-problemas-altura
+  - gi-cenario-longa-espera
+  caminho: ucs/gestao-da-informacao/03-mapa-conhecimentos-criticos-siob.md
