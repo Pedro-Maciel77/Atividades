@@ -8,7 +8,7 @@ Sou **Pedro Henrique Maciel**, estudante de **Análise e Desenvolvimento de Sist
 
 - Turma: **ADS-TADS039**
 - GitHub: [@Pedro-Maciel77](https://github.com/Pedro-Maciel77)
-- Visibilidade planejada: **público** (a publicação ainda precisa ser feita no GitHub)
+- Visibilidade planejada: **público**
 
 ## Comece por aqui
 
