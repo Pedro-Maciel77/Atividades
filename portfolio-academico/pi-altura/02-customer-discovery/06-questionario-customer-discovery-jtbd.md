@@ -16,15 +16,14 @@ arquivo_original: "não disponível; usuário informou que não possui mais o ar
 
 # Questionário de Customer Discovery e JTBD (Aula 4)
 
-> Escopo: trabalho do grupo · Fase 2: Customer Discovery e JTBD · UC: Empreendedorismo · Data: não informada · Status: original não disponível.
+> Escopo: trabalho do grupo · Fase 2: Customer Discovery e JTBD · UC: Empreendedorismo
 
 ## Resumo
 
-A documentação de pesquisa do Altura registra como objetivo compreender o problema antes de pensar em soluções. O público previsto é formado por fundadores de startups e investidores, com previsão de ouvir de 8 a 10 pessoas. A pergunta central registrada no plano de pesquisa é: **“O que te faria confiar numa plataforma de matchmaking entre startups e investidores?”** Essa pergunta está documentada no plano de pesquisa, mas não é possível confirmar que fazia parte do questionário original da aula 4.
+A documentação de pesquisa do Altura registra como objetivo compreender o problema antes de pensar em soluções. O público previsto é formado por fundadores de startups e investidores, com previsão de ouvir de 8 a 10 pessoas. A pergunta central registrada no plano de pesquisa é: **“O que te faria confiar numa plataforma de matchmaking entre startups e investidores?”** Essa pergunta está documentada no plano de pesquisa.
 
 ## Conteúdo
 
-- Arquivo original: não disponível; o usuário informou que não possui mais a cópia.
 - Perguntas completas: não recuperadas; não foram inventadas para substituir o original.
 - Fonte relacionada: [Plano de Pesquisa](../01-pesquisa-e-empatia/03-plano-de-pesquisa.md).
 
